@@ -1,0 +1,41 @@
+import { MdSettings } from "react-icons/md";
+<MdSettings /> //Setting icon
+
+import { MdAdminPanelSettings } from "react-icons/md";
+<MdAdminPanelSettings/> // Admin Panel
+
+import { BsFillLightbulbFill } from "react-icons/bs";
+<BsFillLightbulbFill />// Indicateur lamp
+
+import { FaUserTag } from "react-icons/fa6";
+<FaUserTag /> // Indicateur user tag
+
+import { TiUserAdd } from "react-icons/ti";
+<TiUserAdd />// Ajout de MAD
+
+
+import { TiUserDelete } from "react-icons/ti";
+<TiUserDelete/> // suppression MAD
+
+
+import { FaUsers } from "react-icons/fa6";
+<FaUsers /> // Effectif
+
+import { FaUsersGear } from "react-icons/fa6";
+<FaUsersGear />//Suivi-globalMAD
+
+import { FaCircleUser } from "react-icons/fa6";
+<FaCircleUser/> // Utilisateur 
+
+import { IoIosAddCircle } from "react-icons/io";
+<IoIosAddCircle/> // nouveau
+
+import { TbReport } from "react-icons/tb";
+<TbReport />// pointage 
+
+
+import { FaUserSlash } from "react-icons/fa6";
+<FaUserSlash /> // Absence
+
+
+
