@@ -9,9 +9,9 @@ const handleSubmit = ()=>{
 
 
   return (
-    <div>
+    <div className="">
         <form action="" onSubmit={handleSubmit}>
-
+            <input type="file" placeholder=""/>
         </form>
     </div>
   )

@@ -7,12 +7,45 @@ import Clients from './components/Clients.jsx'
 import Managers from './components/Managers.jsx'
 import Superviseurs from './components/Superviseurs.jsx'
 import Agents from './components/Agents.jsx'
+import Ajouter from './components/Ajouter.jsx'
+import NewPort from './components/elements/NewPort.jsx'
+import NewMan from './components/elements/NewMan.jsx'
 
 
 const routes = createBrowserRouter([
   {
     path:'/',
     element:<App/>,
+  },
+  {
+    path:'/ajouter',
+    element:<Ajouter/>,
+    children:[
+      {
+        path:'/ajouter/',
+        element:<NewPort/>,
+      },
+      {
+        path:'/ajouter/portefeuille',
+        element:<NewPort/>,
+      },
+      {
+        path:'/ajouter/manager',
+        element:<NewMan/>,
+      },
+      {
+        path:'/ajouter/superviseur',
+        element:"C",
+      },
+      {
+        path:'/ajouter/agent',
+        element:"D",
+      },
+      {
+        path:'/ajouter/fichier',
+        element:"E",
+      },
+    ]
   },
   {
     path:'/clients',
